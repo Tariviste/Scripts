@@ -1,0 +1,7 @@
+    	if game:GetService("ReplicatedStorage").GameData.Floor.Value == 'Hotel' then
+    		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tariviste/Scripts/main/Doors%20Script/Floor%201"))()
+        return
+    	elseif game:GetService("ReplicatedStorage").GameData.Floor.Value == 'Mines' then
+    	 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tariviste/Scripts/main/Doors%20Script/Floor%202"))()
+          return
+    	end
